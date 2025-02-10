@@ -1,0 +1,153 @@
+body{
+      background-color: powderblue;
+}
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: powderblue;
+      
+}
+      
+      .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: black;
+        }
+        .logo span {
+            color: blue;}
+.Secondsection{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.Secondsection h4{
+    font-size: 40px;
+    color: #36454F;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Email input{
+      width: 414px;
+      padding: 12px;
+
+}
+.password input{
+      width: 414px;
+      padding: 12px;
+}
+.password {
+      margin-top: 16px;
+}
+.button button {
+      background-color: #1F51FF;
+      border: 1px solid #1F51FF;
+      color: white;
+      width: 80px;
+      text-align: center;
+      padding: 12px;
+      border-radius: 2px;
+}
+.button{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+}
+
+.Footer button{
+     background-color: black;
+     color: white;
+     border: 1px solid black;
+     padding: 12px;
+     padding-inline: 30px;
+     border-radius: 4px;  
+     text-align: center;
+}
+
+.Footer {
+      margin-top: 24px;
+}
+
+.Whole {
+      display: flex;
+      justify-content: space-between;
+      /* align-items: center; */
+}
+
+.Image {
+      align-content: end;
+      height: 100vh;
+      overflow: hidden;
+}
+
+.text input {
+      width: 414px;
+      padding: 12px;
+      margin-bottom: 20px;
+
+}
+
+.password2 input {
+      width: 414px;
+      padding: 9px;
+      margin-top: 20px;
+
+}
+
+.button button {
+      text-align: center;
+      padding-inline: 207px;
+}
+
+.Footer button {
+      text-align: center;
+      padding-inline: 157px;
+}
+.Footer button a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+}
+
+  
+  /* for Mobile Phones */
+  @media screen and (max-width: 768px) {
+      .Secondsection h4 {
+          font-size: 30px;
+      }
+  
+      .text input, .Email input, .password input, .password2 input {
+          width: 100%;
+          padding: 10px;
+      }
+  
+      .button button {
+          width: 100%;
+          padding: 10px;
+      }
+  
+      .Footer button {
+          width: 100%;
+          padding: 10px;
+      }
+  
+      .Whole {
+          flex-direction: column;
+          align-items: center;
+      }
+  }
+  

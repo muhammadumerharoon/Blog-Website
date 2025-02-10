@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Article</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-blue-200">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md">
+      <div class="container mx-auto px-6 py-4 flex items-center">
+        <div class="logo text-2xl font-bold text-gray-800">
+          RISE<span class="text-blue-600">BLOG</span>
+        </div>
+        <input
+          type="text"
+          placeholder="Search"
+          class="ml-12 px-4 py-2 rounded-xl border border-gray-300"
+        />
+        <img src="bell.jpg" alt="bell" class="ml-28 h-6 w-6" />
+        <img src="Flag.jpg" alt="Flag" class="ml-8 h-6 w-6" />
+        <select
+          class="form-select ml-10 px-4 py-2 rounded-md border border-gray-300"
+        >
+          <option selected disabled>Language</option>
+          <option value="English">English</option>
+          <option value="Urdu">Urdu</option>
+        </select>
+      </div>
+    </nav>
+
+    <section class="flex container mx-auto mt-8">
+      <div class="w-[240px] p-6">
+        <button class="w-full py-3 px-5 bg-blue-500 text-white rounded">
+          <a href="http://127.0.0.1:5500/Dashboard.html">DASHBOARD</a>
+        </button>
+        <p class="mt-4 text-xl">Add Articles</p>
+      </div>
+
+      <div class="w-full p-6">
+        <h2 class="text-2xl mb-8">Add New Article</h2>
+
+        <div class="flex flex-col items-center mb-8">
+          <img src="camera.png" alt="camera" class="mb-2" />
+          <p class="text-black-600">Add cover photo</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <form>
+            <div class="mb-4">
+              <label class="block text-black-700">Article Name</label>
+              <input
+                type="text"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-black-700">Author</label>
+              <input
+                type="text"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-black-700">Enter event name</label>
+              <input
+                type="text"
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-balck-700">Category</label>
+              <select
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              >
+                <option>IT</option>
+                <option>Development</option>
+                <option>Food</option>
+                <option>Nutritions</option>
+                <option>Science</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label class="block text-black-700">Subcategory</label>
+              <select
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              >
+                <option>IT</option>
+                <option>Development</option>
+                <option>Food</option>
+                <option>Nutritions</option>
+                <option>Science</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label class="block text-balck-700">Description</label>
+              <textarea
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-blue-500 text-white px-4 py-2 rounded-md"
+            >
+              Add Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
