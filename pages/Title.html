@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-blue-200">
-    <!-- Navigation Bar -->
     <nav class="bg-white shadow-md">
       <div class="container mx-auto px-6 py-4 flex items-center">
         <div class="logo text-2xl font-bold text-gray-800">
@@ -18,8 +17,8 @@
           placeholder="Search"
           class="ml-12 px-4 py-2 rounded-xl border border-gray-300"
         />
-        <img src="bell.jpg" alt="bell" class="ml-28 h-6 w-6" />
-        <img src="Flag.jpg" alt="Flag" class="ml-8 h-6 w-6" />
+        <img src="/images/bell.jpg" alt="bell" class="ml-28 h-6 w-6" />
+        <img src="/images/Flag.jpg" alt="Flag" class="ml-8 h-6 w-6" />
         <select
           class="form-select ml-10 px-4 py-2 rounded-md border border-gray-300"
         >
@@ -30,19 +29,23 @@
       </div>
     </nav>
 
-    <section class="flex container mx-auto mt-8">
-      <div class="w-[240px] p-6">
+    <section class="flex">
+      <div class="w-[240px] h-screen bg-white p-6">
         <button class="w-full py-3 px-5 bg-blue-500 text-white rounded">
-          <a href="http://127.0.0.1:5500/Dashboard.html">DASHBOARD</a>
+          <a href="/pages/Dashboard.html">DASHBOARD</a>
         </button>
-        <p class="mt-4 text-xl">Add Articles</p>
+        <p
+          class="mt-4 w-full py-3 px-5 bg-blue-500 text-white rounded text-center"
+        >
+          <a href="http://127.0.0.1:5500/pages/Title.html">Add Articles</a>
+        </p>
       </div>
 
-      <div class="w-full p-6">
+      <div class="w-full p-6 cotainer mx-auto mt-8">
         <h2 class="text-2xl mb-8">Add New Article</h2>
 
         <div class="flex flex-col items-center mb-8">
-          <img src="camera.png" alt="camera" class="mb-2" />
+          <img src="/images/camera.png" alt="camera" class="mb-2" />
           <p class="text-black-600">Add cover photo</p>
         </div>
 
